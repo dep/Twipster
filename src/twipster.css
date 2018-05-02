@@ -106,14 +106,20 @@
 
 /* White background */
 body,
-body.ProfilePage {
+body.ProfilePage,
+.home-tweet-box,
+.LiveVideo-tweetBox,
+.RetweetDialog-commentBox {
   background-image: none !important;
   background-color: #fff !important;
 }
 
+/* Borders */
+.top-timeline-tweetbox .timeline-tweet-box {
+  border: none !important;
+}
 
 /* Compose Tweet Modal */
-
 .tweet-box {
   width: 95% !important;
   height: auto !important;
@@ -139,3 +145,14 @@ body.ProfilePage {
   margin: 0 auto !important;
 }
 
+/* Quoted text */
+.QuoteTweet-text {
+  max-height: 90px !important;
+}
+
+.top-timeline-tweet-box-user-image.avatar {
+  display: none !important;
+}
+.top-timeline-tweetbox .timeline-tweet-box .t1-form {
+  margin-left: 0 !important;
+}
